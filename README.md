@@ -6,16 +6,21 @@
 
 
 
- Ganhando conhecimento e adquirindo habilidades:<br>
-<a href="https://rodolfomori.com.br/devclub/"><img src="https://rodolfomori.com.br/wp-content/webp-express/webp-images/uploads/elementor/thumbs/LOGO_1-pl6s0w83bob17fyv2myc9hccfjkrd6md916y3lfbcg.png.webp"  width=40px alt="DevClubLOGO">
-  
 
+
+ Ganhando conhecimento e adquirindo habilidades:<br>
+<a href="https://rodolfomori.com.br/devclub/"><img src="https://rodolfomori.com.br/wp-content/webp-express/webp-images/uploads/elementor/thumbs/LOGO_1-pl6s0w83bob17fyv2myc9hccfjkrd6md916y3lfbcg.png.webp"  width=40px alt="DevClubLOGO"><br>
+
+https://mariobrospumbling.netlify.app/ <br>
 
   <h2>💻Tecnologias usadas: <br><br>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt=HTML-LOGO>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt=CSS-LOGO>
  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt=JAVASCRIPT-LOGO>
-</h2>
+</h2> <br>
+
+  
+
 
 <figcaption>Aberto em computador</figcaption>
 <img src="https://github.com/RvvN24/Projeto-Mario-Bros/blob/main/Projeto%20Mario%20Bros/materias/FULLPC.png" alt=pc-open>
