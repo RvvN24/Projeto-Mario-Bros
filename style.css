@@ -1,0 +1,280 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* Cada navegador, aplica algum estilo por padrão, nesse caso como estou usando o edge, ele aplicou uma margem de 8px* Por isso aplicamos o padding e margim em 9
+para referenciar, resetar nossa pagina. E o border-box, deixa nossas medidas reais, ou seja, se eu aplicar width de 100vw, será 100px, porém se eu tiver borda de 1px
+/* ele vai somar 100px com 1 px da borda, tendo 101 px. Aqui pode ser colocado outros parametros, como font-size, todo texto da pagina tera essa fonte */
+
+.service{
+    text-decoration: none;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    margin-right: -200px;
+    text-align: left;
+}
+
+.logo-mario{
+    height: 200px;
+    margin-left: 150px;
+
+}
+
+
+button{
+
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0;
+    padding: 10px 0;
+    border-radius: 3px;
+    background-color: #C51111;
+    width: 200px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+/* Mudamos a cor do texto para branco, o fundo do botão, deixamos vermelho(#c51111), deixamos o botão com os cantos mais arredondados(radius), deixamos sem borda(dessa forma
+o botão ficou com visual mais limpo. Aumentamos a largura(width) do botão  em 200px e a altura(height) em 50px, definimos para quando passar o mouse emcima do botão,  o cursor
+mudar, transformando o nosso cursor em uma "mão"(Pointer), ao passar por cima do botão. Também deixamos a nossa fonte mais espessa, deixando ela em negrito(bold) */
+/* OBS: A descrição a cima, esta relacionada com a ordem dos parametro de estilização usados dentro da tag button. Aplicamos uma margem topo, para criar espaço entre o paragrofo e o botão*/
+/* Como so vamos ter um botão nesse projeto, vamos usar a tag do proprio elemento (button)*/
+
+
+
+.imagem-mario-luigi{
+    height: 500px;
+    right: 0%;
+    position: fixed;
+    top: 260px;
+    margin-right: 150px;
+   
+   
+}
+
+body{
+    height: 100vh;
+    position: fixed;
+}
+
+
+/* Usamos o display flex,  para deixar os itens, um ao lado do outro e também para usar o aling e justify, que somente conseguimos usar, ao ser display flex.
+ Aplicamos um alinhamento dos itens, para o centro, meio da pagina, ele alinha de forma vertical. 
+Se usamor um align-items: end, vai ser jogado para baixo(fim da pagina). Aplicamos um justify( ele alinha de forma horizontal), para deixar os itens
+a direta/esquerda/centro, porem usamos o space, para deixar um espaço entre os itens, como o space-between, around. Ao aplicar padding, 
+que é distanciamento interno da nossa pagina, movemos os itens para aproximar ou distanciar da margem( distanciamento externo). 
+Nesse caso, Todo nosso texto, paragrafo e as imagens de logo, vao se distanciar 100px da borda para dentro.
+Usamos a unidade vh(ViewHeight) para determinar que o que tem dentro da caixa ocupe 100% tela, nesse caso não usamos pixels,
+porque queremos que ocupe a tela inteira, independente da tela. * */
+
+
+
+
+ .caixa-principal{
+  width: 40%;
+  margin-top: 200px;
+  margin-left: 100px;
+
+ }
+
+ button:hover{
+
+    background-color: rgb(73, 0, 0);
+    font-size: 15px;
+    transition: 0.5s  ease-in-out;
+ }
+ 
+.caixa-video{
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+   
+   
+}
+/* Usamos o fixed, para deixar nosso video fixo, enquanto o restanto do conteudo do site, se move. Aplicamos o z-index, que é a posição do iten no eixo Z, se eu aplicar umm valor
+positivo, ele fica na frente (sobre o conteudo geral do site. Aplicando valor negativo, ele fica atrás do conteúdo, sendo assim, 
+o video esta no fundo e o conteudo do site esta a frente. Usamos o top: 0px para deixar o video todo no topo, ou seja, eliminando o distanciamento que estava, como ele esta com 100vw
+ele ocupou a tela toda e em cima. */
+
+video{
+    min-height: 100%;
+   min-height: 100%;
+   position: fixed;
+   top: 0;
+    
+   
+}
+.mascara{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}   
+
+/* Criamos uma caixa invisivel no nosso html, dentro da caixa do video. Chamamos ela e criamos esse sombreado com o linear-gradient, ou seja, deixamos a tela mais escura
+com a finalidade de o usuario ver melhor o conteudo do site, ja que o video estava claro de mais. Basicamente diminuimos o brilho. */
+
+.Link-whatsapp img{
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.Link-whatsapp img:hover{
+    height: 100px;
+}
+
+/* Chamamos a class a ser estilizada e o img se refere a toda imagem que tiver nessa class, no caso a imagem do whats. Deixamos com altura de 60px, fixado,
+jogando todo para direita, deixando 20px da margem e com o bottom, jogamos todo para baixo, mas deixando 20px para não ficar grudado embaixo da pagina.
+Poderiamos usar para procurar a imagem, a tag direto do elemento. EX: a img {}, assim ele procura o link e o uma imagem que estiver dentro*/
+
+.header{ 
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    
+}
+
+/* Ao  usar display flex, habilitamos alguns parametros, como o align items, e o gap( distanciamento entre os itens), dessa forma, nossos links tem um espaço entre si.
+ Aplicamos margem de 30px, quando usamos um unico valor, ele aplica nas 4 direçoes: Top/right/buttom/left. Ao aplicar dois valores, ele joga o primeiro para top e buttom e right e left
+ Para alterar em 4 posiçoes, deve-se colocar 4 valores, seguindo a ordem do relogio: Primeiro valor TOP, segundo valor RIGHT, terceiro valor BUTTOM, quarto valor LEFT. 
+ Se precisar aplicar apenas de um lado, usar o margin especifico, como margin-left/ margin-right/ margin-top/margin-buttom*/
+
+.header img{
+    height: 60px;
+
+}
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor:pointer;
+}
+
+.header a:hover{
+        color: #c51111;
+        font-size: 26px;
+        transition: 0.5s  ease-in-out;
+}
+
+/* Ao usar o pseudo-elemento hover, aplicamos a ação nos links para quando passar o mouse, ele fazer o que determinamos, seja mudar a cor, fundo, tamanho da letra, etc...
+ Usamos o transition para determinar o tempo que vai ser aplicado a ação, no caso, ao colocar o mouse no link, vai aplicar o efeito vermelho e aumentar a fonte
+ em 26px, após 5segundos, o uso do ease-in-out é o comportamento da velocidade de transição durante a duração. Pode ser apenas Ease: acelera rapidamente e vai desacelerando no final
+ LINEAR: velocidade constante
+ EASE-IN: acelera progressivamente até parar abruptamente no fim
+ EASE-OUT: inicia de maneira abrupta e desacelera no fim
+ EASE-IN-OUT: inicia acelerando e termina desacelerando*/
+
+ .formulario-fale-conosco{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:30%;
+    left: -300px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px;
+    transition: left 1s ease-in-out;
+ }
+
+ /* Usamos o display flex para fazer algumas alterações, como o flex-direction column, deixar esses itens em coluna. 
+ Aplicamos um padding, para distanciar os itens, intermanete. Aplicamos o transition: que vai acontecer quando alterar o left com duração 1s aparecendo e sumindo controladamente.*/
+
+ input{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+ }
+
+ /* Aplicamos um radius, para arredondar as bordas. Mudas as caracteristicas da borda, com o border: Espessura tipo e cor. Nesse casso 1 pixel de espessura, solido e na cor cinza.
+ OBS: Temos varios estilos de borda, como o dotted que deixa todo com pontos, tem o double, que deixa com duas bordas, dashed que deixa pontilhado.
+ Aplicamos um padding left, para o placeholder(conteudo dentro do input, nesse caso o Seu nome e Seu telefone), ficarem um pouco afastado do input e não deixar
+ grudado no mesmo. Usamos também o outline-color, que seria a linha quando clicamos dentro do input, estava azul, deixamos verde.*/
+
+ textarea{
+    width:270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+ 
+ }
+
+ .Pedir-orçamento{
+           margin-left: 32px;
+ }
+
+ .mascara-formulario{
+            visibility: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+            transition: visibility 1s ease-in-out;
+            
+        }
+
+ /* Criamos uma div invisivel, e chamamos ela para criar uma mascara para quando chamar o formulario escurecer a tela,o mesmo proposito da aplicação do video. */
+
+ @media screen and (max-width: 400px) {
+    p {
+        display: none;
+    }
+
+    .imagem-mario-luigi{
+       display: none;
+
+    }
+
+    .logo-mario{
+      right: 0%;
+      margin-right: 10px;
+       position: fixed;
+       margin-top: 100px;
+    }
+    button{
+        position: fixed;
+        bottom: 0%;
+        margin-bottom: 150px;
+    }
+
+    .Pedir-orçamento{
+        position: fixed;
+        top: 0%;
+        margin-top: 315px;
+        margin-left: 40px;
+    }
+
+    .mascara{
+    position: fixed;
+    padding: 400px;
+    
+
+}
+
+.header{
+    position: fixed;
+    margin-left: 10px;
+}
+
+ }
+

@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
+}
+
+body{
+    background-image: url(./mario.png);
+    background-repeat: no-repeat;
+    background-position-y: -27px;
+}
+
+
+p{
+
+  font-size: 20px;
+  margin-top: 250px;
+  margin-left: 50px;
+  color: white;
+  letter-spacing: 1px;
+  
+
+}
+.b1 {
+  font-size: 30px;
+  position: fixed;
+  background-color: transparent;
+  width: 200px;
+  height: 60px;
+  border-radius: 8px;
+  left: 150px;
+  top: 35px;
+  color: white;
+  
+}
+
+.b1:hover{
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  background-color: black;
+  color: white;
+  font-size: 35px;
+
+}
+
+.b1:active{
+  background-color: transparent;
+  font-size: 30px;
+}
+
+.b2{
+  font-size: 30px;
+  position: fixed;
+  background-color: transparent;
+  width: 200px;
+  height: 60px;
+  border-radius: 8px;
+  right: 0%;
+  margin-right: 150px;
+  top: 35px;
+  color: white;
+  right: 0%;
+}
+
+.b2:hover{
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  background-color: black;
+  color: white;
+  font-size: 35px;
+
+}
+
+.b2:active{
+  background-color: transparent;
+  font-size: 30px;
+}
+
+
+.Lista-service{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(340deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+  position: fixed;
+  
+}
+
+.menu-service{
+  padding: 40px;
+   line-height: 40px;
+   color: white;
+  height: 350px;
+  width: 400px;
+  margin: 950px 100px 0 0 ;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+ 
+ 
+}
+
+.menu-service:hover{
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+
+.Atendimento{
+  right: 0%;
+  bottom: 0%;
+  padding: 40px;
+  line-height: 40px;
+  color: white;
+ height: 350px;
+ width: 400px;
+ margin-bottom: -300px;
+ line-height: 40px;
+position: fixed;
+transition: 0.8s ease-in-out;
+
+
+}
+
+.Atendimento:hover{
+ text-decoration: underline;
+ text-underline-offset: 6px;
+}
+
+.home{
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+img{
+  width: 80px;
+}
+       
+@media (max-width: 413px){
+
+.b2{
+  position: fixed;
+  width: 130px;
+  font-size: 20px;
+  left: 60%;
+  
+}
+
+.b2:hover{
+  font-size: 20px;
+}
+
+.b1{
+  position: fixed;
+  width: 120px;
+  font-size: 20px;
+  left: 0%;
+  margin-left: 30px;
+}
+
+.b1:hover{
+  font-size: 20px;
+
+}
+p{
+  display: none;
+}
+
+.menu-service{
+ padding: 40px;
+  right: 0%;
+  position: fixed;
+  top: -13%;
+  font-size: 15px;
+}
+.Atendimento{
+  position: fixed;
+  bottom: -12%;
+}
+
+img{
+  width: 50px;
+}
+}
+
