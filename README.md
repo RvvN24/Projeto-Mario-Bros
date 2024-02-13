@@ -1,7 +1,6 @@
 <h1 align="center">✅Projeto Mario Bros</h1> <br>
 
-<p><b>✅Projeto realizado junto ao professor Rodolfo Mori. Nesse projeto, adicionei uma pagina a mais, que abre outra página (nossos serviços), contando com responsividade, feita baseando em 412x914 e 914x412. Praticando em meio a tentantiva e
-erro e aprendendo cada vez mais comandos e maneiras para chegar ao resultado.</b></p> <br>
+<p><b>✅Projeto realizado junto ao professor Rodolfo Mori. Nesse projeto, adicionei uma pagina a maisque abre outra página (nossos serviços), contando com responsividade em portrait, testado no XIAOMI POCO X3 GT. Praticando em meio a tentantiva e erros, aprendendo cada vez mais comandos e maneiras para chegar ao resultado.</b></p> <br>
 <a href="https://emoji.gg/emoji/8210-marioluigidancing"><img src="https://cdn3.emoji.gg/emojis/8210-marioluigidancing.gif" width="64px" height="64px" alt="MarioLuigiDancing"></a> <br>
 
 
@@ -26,5 +25,4 @@ erro e aprendendo cada vez mais comandos e maneiras para chegar ao resultado.</b
 <img src="https://github.com/RvvN24/Projeto-Mario-Bros/blob/main/Projeto%20Mario%20Bros/materias/PortraitHome.png" alt=portrait-home>
 <figcaption>Segunda Pagina em portrait</figcaption>
 <img src="https://github.com/RvvN24/Projeto-Mario-Bros/blob/main/Projeto%20Mario%20Bros/materias/PortraitSegPag.png" alt=second-portrait>
-<figcaption>Home em portrait</figcaption>
-<img src="https://github.com/RvvN24/Projeto-Mario-Bros/blob/main/Projeto%20Mario%20Bros/materias/LandscapeSegPag.png" alt= home-landscape>
+
